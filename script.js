@@ -1,5 +1,6 @@
-// Author: Mikhael Esa S.W.
-// Date: 21/08/2020
+// Author: hilman hidayat
+// Date: 25/06/2022
+
 
 // NOTE Check if the useragent is mobile.
 let isMobile
