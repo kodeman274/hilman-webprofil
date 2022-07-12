@@ -20,6 +20,9 @@
   vertical-align: middle;
 }
 
+
+
+
 .filled {
   background-color: #3e0772;
   color: white;
@@ -47,7 +50,8 @@
 .box {
   width: 50%;
   height: 100%;
-  background-color: #E0E0E0;
+  background-image: radial-gradient( circle farthest-corner at 1.5% 1.4%,  rgba(159,227,255,1) 0%, rgba(255,177,219,1) 100.2% );
+
 }
 
 @-webkit-keyframes slideDown {
@@ -200,11 +204,11 @@ header .container nav a {
 }
 
 header .container nav a:hover {
-  color: #8829E8;
+  color: #5c4475;
 }
 
 header .container nav a.active {
-  color: #8829E8;
+  color: #dad7dd;
 }
 
 header .hamburger-btn {
@@ -264,10 +268,22 @@ header.hide {
 }
 
 .home .container .description .intro h1 {
-  font-size: 36px;
-  font-weight: 800;
+  font-size: 3rem;
+  /* font-weight: 800; */
   color: black;
+  font-family: 'Pacifico', cursive;
+  background-image: radial-gradient( circle farthest-corner at -0.3% 1.4%,  rgba(184,50,147,1) 0%, rgba(227,195,113,1) 100.7% );1) 100.2% );-webkit-background-clip: text;
+  background-clip: text;
+  color: #fff;
+  /* mode color transparant jika berwarna font */
+  /* kalo mau warna putih si bagus klo mo berwarna diganti transparant */
+  /* text-shadow: 3px 3px rgba(0, 0, 0, 0.7); */
+  filter: drop-shadow(3px 3px rgba(0, 0, 0, 0.7);) ;
+  animation: gradient-animation 5s infinite alternate;
+
 }
+
+/
 
 .home .container .description .intro h2 {
   margin-top: 10px;
@@ -276,12 +292,12 @@ header.hide {
 }
 
 .home .container .description .intro h2 span {
-  color: #504EC7;
+  color: #090859;
   font-weight: 600;
 }
 
 .home .container .description .intro h3 {
-  color: #787777;
+  color: #190b31a8eb;
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   margin-bottom: 10px;
@@ -291,7 +307,9 @@ header.hide {
 .home .container .description .picture img {
   max-width: 350px;
   max-height: 230px;
+  border-radius: 50%;
 }
+
 
 .home .container .buttons {
   display: -webkit-box;
@@ -461,9 +479,7 @@ header.hide {
   margin-top: 50px;
   font-weight: 600;
   font-size: 2rem;
-  background: -webkit-gradient(linear, right top, left top, from(#504EC7), to(#EA19EE));
-  background: linear-gradient(-90deg, #504EC7, #EA19EE);
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(to right, #ad5389, #3c1053);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -603,7 +619,7 @@ footer h3 {
     height: 70%;
   }
   header .container nav a {
-    color: rgba(34, 49, 52, 0.9);
+    color: rgb(243, 243, 243);
   }
   header .container.slide-left {
     -webkit-transform: translateX(0);
@@ -639,8 +655,8 @@ footer h3 {
             order: 1;
   }
   .home .container .description .picture img {
-    width: 250px;
-    height: 200px;
+    width: 160px;
+    height: 145px;
   }
   .home .container .description .intro {
     text-align: center;
@@ -713,8 +729,9 @@ footer h3 {
   .contact .container h1 {
     font-size: 20pt;
   }
-  .contact .container .email a {
+  .contact .container .email.envelope h2{
     font-size: 15pt;
+    font-family: 'Pacifico', cursive;
   }
   .contact .container .socials {
     width: 100%;
@@ -729,4 +746,34 @@ footer h3 {
     font-size: 12pt;
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+/* :root {
+  --gradient:
+} */
+body {
+  min-height: 100vh;
+  background-color: #eaeaea;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(171,102,255,1) 0%, rgba(116,182,247,1) 90% );  background-position: :left ;
+
+} 
+
+@keyframes gradient-animation {
+  0% {
+    background-position: :right ;
+
+  }
+
+  100% {
+    background-position: : :left ;
+
+  }
+} 
+/* section .home.container.description h1 {
+  font-size: 12rem;
+} */
+
+
+/* article {
+  background-image: linear-gradient( 64.5deg,  rgba(245,116,185,1) 14.7%, rgba(89,97,223,1) 88.7% ); */
+
+  /* sourceMappingURL=style.css.map */ */
