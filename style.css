@@ -574,7 +574,7 @@ footer {
 footer h3 {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  color: #BDBDBD;
+  color: #000000;
 }
 
 @media (max-width: 800px) {
