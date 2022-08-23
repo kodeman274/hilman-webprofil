@@ -11,7 +11,7 @@
   width: 200px;
   height: 63px;
   text-decoration: none;
-  color: black;
+  color:  white;
   font-family: "Open Sans", sans-serif;
   display: inline-block;
   text-align: center;
@@ -43,8 +43,10 @@
 }
 
 .stroke:hover {
-  background-color: #000;
-  color: rgba(34, 49, 52, 0.9);
+  background-color:#504EC7;
+  color: white;
+}
+
 }
 
 .box {
