@@ -199,20 +199,19 @@ header .container nav {
 }
 
 header .container nav a {
-  color: #333279;
+  color: #616161;
   text-decoration: none;
   -webkit-transition: .5s;
   transition: .5s;
 }
 
 header .container nav a:hover {
-  color: #5c4475;
+  color: #f9f4ff;
 }
 
 header .container nav a.active {
-  color: #dad7dd;
+  color: #f9f4ff;
 }
-
 header .hamburger-btn {
   display: none;
 }
@@ -240,7 +239,7 @@ header.slide {
 }
 
 header.slide .container a {
-  color: rgba(34, 49, 52, 0.9);
+  color: rgba(161, 184, 189, 0.9);
   font-weight: 300;
 }
 
