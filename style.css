@@ -248,7 +248,13 @@ header.hide {
   position: sticky;
   top: -100px;
 }
+.hamburger-btn.ham,.x{
+  border-radius: 50%;
+}
 
+.hamburger-btn.ham{
+  opacity: 1.0;
+}
 .home {
   padding-top: 120px;
 }
