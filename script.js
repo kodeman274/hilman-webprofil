@@ -82,3 +82,15 @@ function updateSize(){
 
 window.onresize = updateSize;
 window.onload = updateSize;
+
+
+const hamburger = document.querySelector('.hamburger-btn');
+const pencet = document.querySelector('.x')
+const iconx = document.querySelector('.ham')
+pencet.addEventListener('click', function() {
+  iconx.style.display = 'none';
+  pencet.style.display = 'none';
+ })
+
+
+ 
