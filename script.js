@@ -93,4 +93,13 @@ pencet.addEventListener('click', function() {
  })
 
 
+const animate = document.querySelector(".animate");
+const huruf = [...animate.textContent].map((h) => `<span>${h}</span>`).join("");
+
+animate.innerHTML = huruf;
+
+const animasi = document.querySelector(".animasi");
+const huruf1 = [...animasi.textContent].map((h) => `<span>${h}</span>`).join("");
+
+animasi.innerHTML = huruf1;
  
