@@ -630,7 +630,7 @@ footer h3 {
             transform: translateX(0);
   }
   header .hamburger-btn {
-    display: initial;
+    display: block;
     position: fixed;
     right: 40px;
     top: 30px;
@@ -669,7 +669,7 @@ footer h3 {
             order: 2;
   }
   .home .container .description .intro h1 {
-    font-size: 7px;
+    font-size: 14px;
   }
   .home .container .description .intro p {
     font-size: 4px;
