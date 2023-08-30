@@ -489,49 +489,6 @@ header.hide {
   -webkit-text-fill-color: transparent;
 }
 
-.contact .container .email {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 25px;
-}
-
-.contact .container .email a {
-  font-weight: 600;
-  text-decoration: none;
-  font-size: 1.5rem;
-  color: #4F4F4F;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  padding: 0 0 5px 10px;
-  position: relative;
-}
-
-.contact .container .email a::after {
-  content: '';
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  display: block;
-  height: 2px;
-  left: 5px;
-  position: absolute;
-  background: #000;
-  opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
-}
-
-.contact .container .email a:hover::after {
-  -webkit-transition: all .5s;
-  transition: all .5s;
-  width: 100%;
-  opacity: 1;
-}
 
 .contact .container .socials {
   margin-top: 10px;
@@ -630,7 +587,7 @@ footer h3 {
             transform: translateX(0);
   }
   header .hamburger-btn {
-    display: block;
+    display: initial;
     position: fixed;
     right: 40px;
     top: 30px;
@@ -669,11 +626,7 @@ footer h3 {
             order: 2;
   }
   .home .container .description .intro h1 {
-    font-size: 1rem;
-  }
-
-  .animate {
-    font-size: 20px;
+    font-size: 7px;
   }
   .home .container .description .intro p {
     font-size: 4px;
@@ -792,7 +745,7 @@ footer h3 {
 body {
   min-height: 100vh;
   background-color: #eaeaea;
-  background-color: rgba(171,102,255,1) ;
+  background-color: rgb(143, 74, 227)
 
 } 
 
@@ -884,7 +837,7 @@ body {
   height: 78px;
   width: 100%;
   border-left: 2px solid #ffff;
-  background-color:rgba(171,102,255,1) ;
+  background-color:rgb(143, 74, 227) ;
   animation: typing 3s steps(14) infinite;
 
 }
