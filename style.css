@@ -175,6 +175,11 @@ header .container .logo {
   display: flex;
 }
 
+.burem {
+  backdrop-filter: blur(5px);
+  text-transform: uppercase;
+}
+
 header .container .logo img {
   width: 74px;
   height: 74px;
@@ -889,4 +894,10 @@ body {
 .button-porto1:hover {
   color: #e7e1f4;
   border: 10px;
+}
+
+@media (max-width: 468px) {
+  .burem {
+    display: none;
+  }
 }
