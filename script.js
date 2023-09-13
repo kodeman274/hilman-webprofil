@@ -128,3 +128,16 @@ document.addEventListener('DOMContentLoaded', function () {
       : 'Tampilkan Sedikit';
   });
 });
+
+// Ambil elemen navbar
+const navbar = document.getElementById('navbar');
+
+// Tambahkan event listener untuk mendeteksi scroll
+window.addEventListener('scroll', () => {
+  // Tentukan aturan kapan navbar harus menjadi blur
+  if (window.scrollY > 50) {
+    navbar.classList.add('burem');
+  } else {
+    navbar.classList.remove('burem');
+  }
+});
